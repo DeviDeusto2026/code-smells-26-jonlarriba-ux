@@ -16,7 +16,7 @@ public class Coin : MonoBehaviour
 
     void Update()
     {
-        transform.Rotate(Vector3.forward * Time.deltaTime * staticData.GetRotationSpeed());
+        staticData.RotateObject(gameObject);
     }
 
     private void OnCollisionEnter(Collision collision)
