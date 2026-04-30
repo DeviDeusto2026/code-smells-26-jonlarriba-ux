@@ -11,9 +11,11 @@ public class JumpBehaviour : MonoBehaviour
 
     private int jumpForce = 400;
 
+    private string groundLayer = "Ground";
+
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
+        if (collision.gameObject.layer == LayerMask.NameToLayer(groundLayer))
         {
             groundCollisions++;
         }
@@ -21,7 +23,7 @@ public class JumpBehaviour : MonoBehaviour
 
     private void OnCollisionExit(Collision collision)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
+        if (collision.gameObject.layer == LayerMask.NameToLayer(groundLayer))
         {
             groundCollisions--;
         }
