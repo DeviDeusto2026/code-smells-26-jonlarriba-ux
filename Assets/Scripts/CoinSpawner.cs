@@ -3,7 +3,7 @@ using UnityEngine;
 public class CoinSpawner : MonoBehaviour
 {
 
-    public GameObject prefab;
+    public GameObject coinPrefab;
 
     public float minX;
     public float maxX;
@@ -16,7 +16,7 @@ public class CoinSpawner : MonoBehaviour
     {
         for (int i = 0; i < coinAmount; i++)
         {
-            var gameObject = Instantiate<GameObject>(prefab);
+            var gameObject = Instantiate<GameObject>(coinPrefab);
 
             float x = Random.Range(minX, maxX);
             float y = 0.5f;
