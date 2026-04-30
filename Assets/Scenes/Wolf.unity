@@ -458,7 +458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 988925c9ce7621944bb3758536e9e53b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 6475601298982974607, guid: 6d04b727cd520854bb7771343ea2dc1f, type: 3}
+  coinPrefab: {fileID: 6475601298982974607, guid: 6d04b727cd520854bb7771343ea2dc1f, type: 3}
   minX: 6
   maxX: 14
   minZ: 0
@@ -937,7 +937,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ecc8b9f5c75390418150281fb307d1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeed: 2
 --- !u!1 &1124390785 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7778468829854521638, guid: f69b074f7b5794d4391c715bb369f87d, type: 3}
@@ -1413,8 +1412,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dd9ea0c155d6db4287a29939072532e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mS: 16
-  rS: 180
+  moveSpeed: 3
+  rotateSpeed: 2
 --- !u!1 &1915767542 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7778468829853495045, guid: f69b074f7b5794d4391c715bb369f87d, type: 3}

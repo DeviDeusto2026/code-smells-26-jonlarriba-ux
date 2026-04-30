@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-
-    public float rotateSpeed = 360;
+    private StaticData staticData;
 
     private AudioSource audioSource;
 
     private void Awake()
     {
         audioSource = GetComponent<AudioSource>();
+        staticData = new StaticData();
     }
 
     void Update()
     {
-        transform.Rotate(Vector3.forward * Time.deltaTime * rotateSpeed);
+        transform.Rotate(Vector3.forward * Time.deltaTime * staticData.GetRotationSpeed());
     }
 
     private void OnCollisionEnter(Collision collision)
