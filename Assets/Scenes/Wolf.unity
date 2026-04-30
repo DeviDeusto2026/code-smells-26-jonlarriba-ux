@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.75384337, g: 0.69132495, b: 0.4142954, a: 1}
+  m_IndirectSpecularColor: {r: 0.75392115, g: 0.6914075, b: 0.41410613, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 38586933}
   - component: {fileID: 38586932}
   m_Layer: 0
-  m_Name: BSO
+  m_Name: OST
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
